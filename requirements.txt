@@ -1,0 +1,4 @@
+#pypi python
+pandas
+numpy
+seaborn
