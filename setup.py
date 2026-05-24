@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup#setup done
 from typing import List#importing list
 #imported from typing
-def get_requirements(file_path:str)->List[str]:
+def get_requirements(file_path:str)->List[str]:#defining function
     '''
     this function will return the list of requirements
     '''
