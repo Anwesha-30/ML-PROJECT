@@ -8,7 +8,7 @@ def get_requirements(file_path:str)->List[str]:#defining function
     #the requirements are
     requirements=[]#array
     with open(file_path) as file_obj:
-        requirements = file_obj.readlines()
+        requirements = file_obj.readlines()#file object
         requirements = [req.replace("\n","" for req in requirements)]
 setup(
     name='mlproject',
