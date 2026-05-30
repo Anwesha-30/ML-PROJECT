@@ -10,7 +10,7 @@ def get_requirements(file_path:str)->List[str]:#defining function
     with open(file_path) as file_obj:
         requirements = file_obj.readlines()#file object
         requirements = [req.replace("\n","" for req in requirements)]
-setup(
+setup(#setup induced
     name='mlproject',
     version='0.0.1',
     author='me',
