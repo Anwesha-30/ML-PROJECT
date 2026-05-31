@@ -7,7 +7,7 @@ def get_requirements(file_path:str)->List[str]:#defining function
     '''
     #the requirements are
     requirements=[]#array
-    with open(file_path) as file_obj:
+    with open(file_path) as file_obj:#OPENING
         requirements = file_obj.readlines()#file object
         requirements = [req.replace("\n","" for req in requirements)]
 setup(#setup induced
